@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>All-Safe Computers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="icon" href="img2/AllSafeISoloLogo.ico" />
+    <link async href="https://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com"
+      rel="stylesheet" type="text/css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- nav-bar -->
+  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="./img/All-Safe computer (1).png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-evenly" id="navbarNavDropdown">
+        <ul class="navbar-nav justify-content-evenly">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="servicios.html#servicios">Reparación y solución de fallas</a></li>
+              <li><a class="dropdown-item" href="servicios.html#servicios">Mantenimiento de computadores</a></li>
+              <li><a class="dropdown-item" href="servicios.html#mantenimiento-computo">Equipos de impresión y digitalización</a></li>
+              <li><a class="dropdown-item" href="servicios.html#software">Software</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="conoceme.html">Conóceme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>          
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <main class="pt-5">
+ <!--Formulario Contacto-->
+ <div id="contacto" class="container">
+  <section id="" class="row">
+    <article id="contactanos-text" class="col-12 text-center">
+      <h1 id="h1-contactanos" class="fs-1 fw-bold text-black-50">
+        Contactanos
+      </h1>
+      <p class="fs-3 text-black-50">!Envía tus comentarios!</p>
+      <p class="fs-3 text-black-50">
+        O para más información , puedes contactar en
+        <a class="text-black-50" href="mailto:allsafecompu@gmail.com">allsafecompu@gmail.com</a>.
+      </p>
+    </article>
+    <article class="col-12 col-lg-6 order-lg-1">
+      <form id="correo" class="text-white" action="https://formsubmit.co/santiagorivasmolina@gmail.com" method="POST">
+        <div class="mb-4">
+          <label class="form-label fs-4 text-white" for="name"
+            >Nombre:</label
+          >
+          <input
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Nombre"
+            type="text"
+            required
+          />
+        </div>
+        <div class="mb-4">
+          <label class="form-label fs-4 text-white" for="name"
+            >E-mail:</label
+          >
+          <input
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Tu correo"
+            type="email"
+            required
+          />
+        </div>
+        <div class="mb-4">
+          <label class="form-label fs-4 text-white" for="comments"
+            >Comentarios:</label
+          >
+          <textarea
+            rows="5"
+            class="form-control"
+            id="comments"
+            name="comments"
+            placeholder="Deja aquí tus comentarios"
+            required
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <input class="btn btn-lg btn-success" type="submit" />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/gracias.html"
+          />
+          <input
+            type="hidden"
+            name="_subject"
+            value="Comentario del curso"
+          />
+        </div>
+      </form>
+    </article>
+    <!--Mapa Contacto-->
+    <article class="col-12 col-lg-6 mb-5">
+      <div class="ratio ratio-16x9 mt-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d885.5865442037021!2d-74.26655254333588!3d4.744131571271661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f7917bed99f31%3A0xdb90896a55abd1c4!2sConjunto%20Alhambra%20Condominio%20Campestre!5e0!3m2!1sen!2sco!4v1677996844484!5m2!1sen!2sco" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+      </div>
+    </article>
+  </section>
+</div>
+
+ </main>
+   <!-- footer -->
+  <footer class="bg-body-tertiary p-3">
+    <div class="container">
+      <nav class="d-flex justify-content-center justify-content-evenly p-3">
+        <a id="ancla-contacto" href="http://facebook.com/people/All-Safe-Computer/100091418733932/" target="_blank"><i class="bi bi-facebook fs-2"></i></a>
+        <a id="ancla-contacto" href="http://api.whatsapp.com/send?phone=573184440993" target="_blank"><i class="bi bi-whatsapp fs-2"></i></a>
+      </nav>
+
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-black-50 text-decoration-none fw-bold">Servicios</h5>
+              <li class="mb-2">
+                <a id="ancla-cards" href="#mantenimiento-computo" class="card-link text-decoration-none ">Mantenimiento de computadores</a>
+              </li>
+              <li id="ancla-cards" class="mb-2">
+                <a href="#reparacion-solucion" class="card-link  text-decoration-none ">Reparación y solución de fallas</a>
+              </li>
+              <li id="ancla-cards" class="mb-2">
+                <a href="#impresion-digitalizacion" class="card-link  text-decoration-none ">Equipos de impresión y digitalización</a>
+              </li>
+              <li id="ancla-cards" class="mb-2">
+                <a href="#software" class="card-link  text-decoration-none ">Software</a>
+              </li> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-black-50 text-decoration-none fw-bold">Contacto</h5> 
+              <li class="mb-2 me-2 mt-2">               
+                <a class="card-text fs-6 text-decoration-none me-3" id="ancla-cards" href="mailto:allsafecompu@gmail.com"> <i class="bi bi-envelope me-1"></i>allsafecompu@gmail.com</a>                
+              </li>
+              <li class="mb-2 mt-4">                                 
+                <a class="card-text text-decoration-none" href="http://api.whatsapp.com/send?phone=573184440993"><i class="bi bi-whatsapp me-1"></i>(+57) 318 444 0993</a>
+              </li>
+              <li class="mb-2 mt-4">                
+                <a class="card-text text-decoration-none" href="http://facebook.com/people/All-Safe-Computer/100091418733932/">Siguenos en<i class="bi bi-facebook ms-1"></i></a>
+              </li>              
+            </div>
+          </div>
+        </div>
+      </div>
+      <small class="d-flex justify-content-center justify-content-evenly mt-3">&copy; 2023 Sanrivalina | All-Safe Computer</small>  
+    </div>
+  </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>   
+</body>
+</html>
