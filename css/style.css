@@ -232,3 +232,13 @@ li {
     }
 
 }
+
+@media (min-width: 400px) {
+    .navbar-brand img {
+        width:auto;
+        height: 160px;
+    }
+
+      
+    
+}
