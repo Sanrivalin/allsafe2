@@ -1,0 +1,33 @@
+.navbar-brand img {
+    width:auto;
+    height: 120px;
+}
+
+#navbarNavDropdown {
+    /* display: flex !important; */
+    justify-content: flex-end !important;
+}
+
+.navbar-nav li:hover a {
+    color: var(--first-color);
+  }
+
+.dropdown-item {
+    color:var(--first-alpha-color);
+    /* font-weight: bold; */
+    transition: all .3s ease-out;
+}
+
+.dropdown-item:hover {
+    color:var(--link-color);  
+    
+}
+@media (min-width: 400px) {
+    .navbar-brand img {
+        width:auto;
+        height: 160px;
+    }
+
+      
+    
+}

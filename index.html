@@ -1,122 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>All-Safe Computers</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"/>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="img/icono2.ico" />
-    <link async href="https://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com"
-      rel="stylesheet" type="text/css"/>
+    <link
+      async
+      href="https://fonts.googleapis.com/css?family=Warnes"
+      data-generated="http://enjoycss.com"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-  <!-- nav-bar -->
-  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><img class="logo img-fluid" src="./img/All-Safe computer (1).png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-evenly" id="navbarNavDropdown">
-        <ul class="navbar-nav justify-content-evenly">
-          <li class="nav-item">
-            <a class="nav-link active fs-5" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Servicios
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item fs-5" href="servicios.html#servicios">Reparación y solución de fallas</a></li>
-              <li><a class="dropdown-item fs-5" href="servicios.html#servicios">Mantenimiento de computadores</a></li>
-              <li><a class="dropdown-item fs-5" href="servicios.html#mantenimiento-computo">Equipos de impresión y digitalización</a></li>
-              <li><a class="dropdown-item fs-5" href="servicios.html#software">Software</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5" href="conoceme.html">Conóceme</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5" href="contacto.html">Contacto</a>
-          </li>          
-        </ul>
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/servicios.css">
+    <link rel="stylesheet" href="./css/slider-img.css">
+    <link rel="stylesheet" href="./css/style.css"/>
+  </head>
+  <body>
+    <!-- nav-bar -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="logo img-fluid"
+            src="./img/All-Safe computer (1).png"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-evenly"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav justify-content-evenly">
+            <li class="nav-item">
+              <a
+                class="nav-link active fs-5"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle fs-5"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Servicios
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item fs-5" href="servicios.html#servicios"
+                    >Reparación y solución de fallas</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item fs-5" href="servicios.html#servicios"
+                    >Mantenimiento de computadores</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fs-5"
+                    href="servicios.html#mantenimiento-computo"
+                    >Equipos de impresión y digitalización</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item fs-5" href="servicios.html#software"
+                    >Software</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="conoceme.html">Conóceme</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
- <main class="">
-  <!-- inicio -->
-  <div id="inicio" class="imagen-fondo w-auto img-fluid">
-    
-    <div class="caja container d-flex flex-column">
-      <p class="text-inicio-button fs-1 text-start">Soporte Técnico</p>
-      <button class="inicio-button btn btn-outline-light text-black-50 fs-5 mt-3 order-last" href="./contacto.html" type="button"><a class="text-black-50 fs-5 text-decoration-none fw-bold" href="contacto.html">Contacto</a>
-      </button>
-    </div>
-  </div>
- </main>
-   <!-- footer -->
-  <footer class="bg-body-tertiary p-3">
-    <div class="container">
-      <nav class="d-flex justify-content-center justify-content-evenly p-3">
-        <a id="ancla-contacto" href="http://facebook.com/people/All-Safe-Computer/100091418733932/" target="_blank"><i class="bi bi-facebook fs-2"></i></a>
-        <a id="ancla-contacto" href="http://api.whatsapp.com/send?phone=573184440993" target="_blank"><i class="bi bi-whatsapp fs-2"></i></a>
-      </nav>
-      <!-- card-1 -->
-      <div class="row">
-        <div class="col-sm-6 mb-3 mb-sm-0">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-black-50 text-decoration-none fw-bold">Servicios</h5>
-              <li id="ancla-cards" class="mb-2">
-                <a id="ancla-cards" href="servicios.html#servicios" class="card-link text-decoration-none  ">Mantenimiento de computadores</a>
-              </li>
-              <li id="ancla-cards" class="mb-2 text-decoration-none">
-                <a href="servicios.html#servicios" class="card-link  text-decoration-none ">Reparación y solución de fallas</a>
-              </li>
-              <li id="ancla-cards" class="mb-2">
-                <a href="servicios.html#mantenimiento-computo" class="card-link  text-decoration-none  ">Equipos de impresión y digitalización</a>
-              </li>
-              <li id="ancla-cards" class="mb-2">
-                <a href="servicios.html#software" class="card-link  text-decoration-none ">Software</a>
-              </li> 
+    </nav>
+    <main class="">
+      <!-- inicio -->
+      <div id="inicio" class="imagen-fondo w-auto img-fluid">
+        <div class="caja container d-flex flex-column">
+          <p class="text-inicio-button fs-1 text-start">Soporte Técnico</p>
+          <button
+            class="inicio-button btn btn-outline-light text-black-50 fs-5 mt-3 order-last"
+            href="./contacto.html"
+            type="button"
+          >
+            <a
+              class="text-black-50 fs-5 text-decoration-none fw-bold"
+              href="contacto.html"
+              >Contacto</a
+            >
+          </button>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="bg-body-tertiary p-3">
+      <div class="container">
+        <nav class="d-flex justify-content-center justify-content-evenly p-3">
+          <a
+            id="ancla-contacto"
+            href="http://facebook.com/people/All-Safe-Computer/100091418733932/"
+            target="_blank"
+            ><i class="bi bi-facebook fs-2"></i
+          ></a>
+          <a
+            id="ancla-contacto"
+            href="http://api.whatsapp.com/send?phone=573184440993"
+            target="_blank"
+            ><i class="bi bi-whatsapp fs-2"></i
+          ></a>
+        </nav>
+        <!-- card-1 -->
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <h5
+                  class="card-title text-black-50 text-decoration-none fw-bold"
+                >
+                  Servicios
+                </h5>
+                <li id="ancla-cards" class="mb-2">
+                  <a
+                    id="ancla-cards"
+                    href="servicios.html#servicios"
+                    class="card-link text-decoration-none"
+                    >Mantenimiento de computadores</a
+                  >
+                </li>
+                <li id="ancla-cards" class="mb-2 text-decoration-none">
+                  <a
+                    href="servicios.html#servicios"
+                    class="card-link text-decoration-none"
+                    >Reparación y solución de fallas</a
+                  >
+                </li>
+                <li id="ancla-cards" class="mb-2">
+                  <a
+                    href="servicios.html#mantenimiento-computo"
+                    class="card-link text-decoration-none"
+                    >Equipos de impresión y digitalización</a
+                  >
+                </li>
+                <li id="ancla-cards" class="mb-2">
+                  <a
+                    href="servicios.html#software"
+                    class="card-link text-decoration-none"
+                    >Software</a
+                  >
+                </li>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5
+                  class="card-title text-black-50 text-decoration-none fw-bold"
+                >
+                  Contacto
+                </h5>
+                <li class="mb-2 me-2 mt-2">
+                  <a
+                    class="card-text fs-6 me-3"
+                    id="ancla-cards"
+                    href="mailto:allsafecompu@gmail.com"
+                  >
+                    <i class="bi bi-envelope me-1"></i>allsafecompu@gmail.com</a
+                  >
+                </li>
+                <li class="mb-2 mt-4">
+                  <a
+                    class="card-text"
+                    href="http://api.whatsapp.com/send?phone=573184440993"
+                    ><i class="bi bi-whatsapp me-1"></i>(+57) 318 444 0993</a
+                  >
+                </li>
+                <li class="mb-2 mt-4">
+                  <a
+                    class="card-text"
+                    href="http://facebook.com/people/All-Safe-Computer/100091418733932/"
+                    >Siguenos en<i class="bi bi-facebook ms-1"></i
+                  ></a>
+                </li>
+              </div>
             </div>
           </div>
         </div>
-        <!-- card-2 -->
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-black-50 text-decoration-none fw-bold">Contacto</h5> 
-              <li class="mb-2 me-2 mt-2">               
-                <a class="card-text fs-6 me-3" id="ancla-cards" href="mailto:allsafecompu@gmail.com"> <i class="bi bi-envelope me-1 "></i>allsafecompu@gmail.com</a>                
-              </li>
-              <li class="mb-2 mt-4">                                 
-                <a class="card-text" href="http://api.whatsapp.com/send?phone=573184440993"><i class="bi bi-whatsapp me-1"></i>(+57) 318 444 0993</a>
-              </li>
-              <li class="mb-2 mt-4">                
-                <a class="card-text" href="http://facebook.com/people/All-Safe-Computer/100091418733932/">Siguenos en<i class="bi bi-facebook ms-1"></i></a>
-              </li>              
-            </div>
-          </div>
-        </div>
+        <small class="d-flex justify-content-center justify-content-evenly mt-3"
+          >&copy; 2023 Sanrivalina | All-Safe Computer</small
+        >
       </div>
-      <small class="d-flex justify-content-center justify-content-evenly mt-3">&copy; 2023 Sanrivalina | All-Safe Computer</small>  
-    </div>
-  </footer>
+    </footer>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main.js"></script>   
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>

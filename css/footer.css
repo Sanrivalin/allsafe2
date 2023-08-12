@@ -1,0 +1,16 @@
+
+.card-link {
+    color: rgba(0, 0, 0, 0.5) ;
+  }
+
+  li .card-link:hover{
+    color: var(--first-color);
+  }
+
+  .card-text {
+    color: rgba(0, 0, 0, 0.5) ;
+  }
+
+  li .card-text:hover {
+    color: var(--first-color);
+  }

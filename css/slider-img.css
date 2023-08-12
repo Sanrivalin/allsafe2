@@ -1,0 +1,43 @@
+#img-microsoft {
+    height: 48px;
+    margin-left: 54px;
+ }
+
+#img-hp {
+    height: 65px;
+    margin-left: 35px;
+    /* margin-right: 25px; */
+ }
+
+ #img-apple{
+    height:68px;
+    /* margin-right: 25px; */
+    margin-left: 35px;
+ }
+
+ #img-acer {
+    height: 95px;
+    margin-left: 59px;
+ }
+
+ #img-lexmark {
+    height: 155px;
+    margin-left: 54px;
+ }
+
+ #img-dell {
+    height: 110px;
+    margin-left: 49px;
+ }
+
+ #img-lenovo {
+    margin-left: 35px;
+ }
+
+ #img-canon {
+    margin-left: 35px;    
+ }
+
+ #img-asus {
+    margin-left: 25px;
+ }
